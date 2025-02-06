@@ -46,27 +46,27 @@ Python 3.9+
 ***Установка и запуск***
 
 1. Клонирование репозитория
-bash
-```
+   
+```bash
 git clone https://github.com/maxim-vdonsk/deepseek_bot.git
 cd deepseek_bot
 ```
 3. Создание виртуального окружения
-bash
-```
+
+```bash
 python -m venv venv
 source venv/bin/activate
 ```
 
 4. Установка зависимостей
-bash
-```
+
+```bash
 pip install -r requirements.txt
 5. Настройка переменных окружения
 ```
 Создайте файл .env в корне проекта и добавьте следующие переменные:
-bash
-```
+
+```bash
 TELEGRAM_BOT_TOKEN=your_telegram_bot_token_here
 DEEPSEEK_API_KEY=your_deepseek_api_key_here
 BASE_URL=https://api.deepseek.ai/v1
@@ -74,8 +74,8 @@ BASE_URL=https://api.deepseek.ai/v1
 Примечание : Замените значения на свои реальные токены и URL. 
 
 5. Запуск бота
-bash
-```
+
+```bash
 python bot.py
 Бот начнет работу и будет доступен в Telegram.
 ```
