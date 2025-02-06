@@ -51,19 +51,19 @@ Python 3.9+
 git clone https://github.com/maxim-vdonsk/deepseek_bot.git
 cd deepseek_bot
 ```
-3. Создание виртуального окружения
+2. Создание виртуального окружения
 
 ```bash
 python -m venv venv
 source venv/bin/activate
 ```
-
-4. Установка зависимостей
+3. Установка зависимостей
 
 ```bash
 pip install -r requirements.txt
-5. Настройка переменных окружения
 ```
+4. Настройка переменных окружения
+
 Создайте файл .env в корне проекта и добавьте следующие переменные:
 
 ```bash
@@ -71,7 +71,7 @@ TELEGRAM_BOT_TOKEN=your_telegram_bot_token_here
 DEEPSEEK_API_KEY=your_deepseek_api_key_here
 BASE_URL=https://api.deepseek.ai/v1
 ```
-Примечание : Замените значения на свои реальные токены и URL. 
+*Примечание : Замените значения на свои реальные токены и URL.*
 
 5. Запуск бота
 
