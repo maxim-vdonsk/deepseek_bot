@@ -76,7 +76,7 @@ BASE_URL=https://api.deepseek.ai/v1
 5. Запуск бота
 
 ```bash
-python bot.py
+python main.py
 Бот начнет работу и будет доступен в Telegram.
 ```
 ***Пример использования*** 
